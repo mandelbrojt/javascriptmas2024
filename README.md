@@ -1,4 +1,4 @@
-# JavaScriptmas 2024  
+# 🎄 JavaScriptmas 2024 🎄
 > Challenges from Scrimba's JavaScriptmas 2024 edition  
 
 From December 1st to December 24th, a new coding challenge will be released each day.  
