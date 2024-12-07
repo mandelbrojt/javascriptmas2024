@@ -1,12 +1,9 @@
-html {
-  min-width: 375px;
-}
-
 body {
   font-family: 'Cinzel', serif;
   background-color: #E40010;
   text-align: center;
   margin: 0 auto;
+  min-width: 375px;
 }
 
 /* .main {
@@ -31,7 +28,7 @@ body {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 5px;
-  justify-content: center;
+  justify-items: center;
   align-items: center;
   padding: 1.3em;
   max-width: 500px;
