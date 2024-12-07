@@ -15,7 +15,7 @@ For example, only one of these entries should be added to the list — the other
 1. Ensure no duplicates can be added to the list.
 2. Account for extra spaces at the beginning/end and between words.
  
-## Stretch Goals:**
+## Stretch Goals
 1. Case Sensitivity: Handle cases where capitalization differs. For example:
    - `"Cat Hammock"` should be flagged as a duplicate of `"cat hammock"`.
    - Preserve Grandpa’s original capitalization (e.g., if `"Cat Hammock"` is added first, that should be added to the list). Do not simply convert all entries to lower case - Grandpa might well want to capitalize some words. 
