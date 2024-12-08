@@ -5,9 +5,10 @@ const weekDays = [
   "Thursday", "Friday", "Saturday", "Sunday"
 ]
 
-for (let i = 1; i <= 31; i++) {
-  let box = document.createElement('li');
-  box.classList.add('calendar-circle');
+for (let i = -7; i <= 31; i++) {
+  
+  let circle = document.createElement('li');
+  circle.classList.add('calendar-circle');
   
   let number = document.createElement('p');
   number.innerHTML = i;
@@ -16,8 +17,8 @@ for (let i = 1; i <= 31; i++) {
   const icon = document.createElement('i');
   icon.classList.add('fas', 'fa-gift');
   
-  box.appendChild(number);
-  box.appendChild(icon);
+  circle.appendChild(number);
+  circle.appendChild(icon);
   
-  calendarContainer.appendChild(box);
+  calendarContainer.appendChild(circle);
 }
