@@ -31,6 +31,16 @@ body {
   border-radius: 20px;
 }
 
+.calendar-weekday-box {
+  list-style: none;
+}
+
+.weekday-name {
+  margin: 0;
+  padding: 0.25em;
+  font-size: 1.125rem;
+}
+
 .calendar-circle {
   width: 50px;
   height: 50px;
@@ -56,7 +66,7 @@ body {
     width: 35px;
     height: 35px;
   }
-  .calendar-day {
+  .weekday-name, .calendar-day {
     font-size: 0.6rem;
   }
 }
